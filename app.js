@@ -9,7 +9,7 @@ function initMap(){
   try{
     if(typeof L==="undefined")throw new Error("no leaflet");
     map=L.map("map",{zoomControl:true}).setView(DATA[city].center,DATA[city].zoom);
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",{attribution:"© OpenStreetMap, © CARTO",maxZoom:19}).addTo(map);
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"© OpenStreetMap, © CARTO",maxZoom:19}).addTo(map);
     useLeaflet=true;
     document.getElementById("schema").style.display="none";
     document.getElementById("map").style.display="block";
