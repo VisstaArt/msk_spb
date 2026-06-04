@@ -23,9 +23,9 @@ var P={
  isaac:["photos/isaac_1.jpg","photos/isaac_4.jpg","photos/isaac_3.jpg","photos/isaac_5.jpg","photos/isaac_6.jpg","photos/isaac_7.jpg","photos/isaac_8.jpg","photos/isaac_2.jpg"],
  blood:["photos/blood_main.jpg","photos/blood_2.jpg","photos/blood_1.jpg","photos/blood_3.jpg","photos/blood_4.jpg","photos/blood_5.jpg","photos/blood_6.jpg"],
  nevsky:["photos/nevsk-e1592493878183.jpg","photos/nevsky_prospekt.jpg","photos/zaglavnaya-nevskiy-prospekt.jpg","photos/Сквер_на_Казанской_площади_(1).jpg"],
- petropavlovsk:["photos/RUS-2016-Aerial-SPB-Peter_and_Paul_Fortress_02.jpg","photos/Петропавловский_собор.-Петропавловская_крепость_2H1A8327WI.jpg","photos/1658._Санкт-Петербург._Монетный_двор.jpg","photos/RUS-2016-Aerial-SPB-Military_Historical_Museum_of_Artillery.jpg","photos/Вход_в_музей_артиллерии.jpg"],
+ petropavlovsk:["photos/RUS-2016-Aerial-SPB-Peter_and_Paul_Fortress_02.jpg","photos/Петропавловский_собор._Петропавловская_крепость_2H1A8327WI.jpg","photos/1658._Санкт-Петербург._Монетный_двор.jpg","photos/RUS-2016-Aerial-SPB-Military_Historical_Museum_of_Artillery.jpg","photos/Вход_в_музей_артиллерии.jpg"],
  peterhof:["photos/Grand_Cascade_of_Peterhof_01.jpg","photos/Peterhof_Fountains_01_-_Big_Cascade_02.jpg","photos/Petergof_Alexander_Nevsky_chapel_2009-08_1249234328.jpg"],
- tsarskoe:["photos/Catherine_Palace_in_Tsarskoe_Selo.jpg","photos/Екатерининский_дворец_в_Пушкине.jpeg","photos/2002-11-15_071b_Puschkin_Bernsteinzimmer.jpg","photos/Pushkin_Catherine_Palace_Interiors_02.jpg","photos/Царское-село,-Екатерининский-дворец.jpg","photos/St._Petersburg_-_Great_Catherine_Palace_-_Indoors_-_Большой_Екатерининский_дворец_-_В_помещении_-_panoramio.jpg","photos/St._Petersburg_-_Great_Catherine_Palace_-_Indoors_-_Большой_Екатерининский_дворец_-_В_помещении_-_panoramio_(1).jpg","photos/Pushkin_Catherine_Palace_Interiors_05.jpg","photos/FR_Carskie_Siolo,_palac,_in,_2013.08.10,_fot._I._Nowicka_(3)_corr.jpg"],
+ tsarskoe:["photos/Catherine_Palace_in_Tsarskoe_Selo.jpg","photos/Екатерининский_дворец_в_Пушкине.jpeg","photos/2002-11-15_071b_Puschkin_Bernsteinzimmer.jpg","photos/Pushkin_Catherine_Palace_Interiors_02.jpg","photos/Царское-село,-Екатерининский-дворец.jpg","photos/St._Petersburg_-_Great_Catherine_Palace_–_Indoors_-_Большой_Екатерининский_дворец_-_В_помещении_-_panoramio.jpg","photos/St._Petersburg_-_Great_Catherine_Palace_–_Indoors_-_Большой_Екатерининский_дворец_-_В_помещении_-_panoramio_(1).jpg","photos/Pushkin_Catherine_Palace_Interiors_05.jpg","photos/FR_Carskie_Siolo,_palac,_in,_2013.08.10,_fot._I._Nowicka_(3)_corr.jpg"],
  strelka:["photos/Spb_06-2017_img01_Spit_of_Vasilievsky_Island.jpg","photos/St_petersburg_4.jpg","photos/День_города_2011.jpeg"],
  bridges:["photos/разводные_мосты.jpg","photos/мосты1.png"],
  food_palkin:["photos/Палкинъ1.jpg","photos/палкин1 .webp","photos/палкин2.webp","photos/палкин3.webp","photos/палкин4.webp"],
@@ -39,7 +39,7 @@ var P={
  ostankino:["photos/ostankinskaya-bashnya2.jpg","photos/ostankinskaya-bashnya1.jpg","photos/останкиская.jpg","photos/останкинская_.jpg","photos/останкин.jpg","photos/restoran_7_nebo_v_ostankino_7.jpg"],
  bunker42:["photos/bunker42_stlina3.jpg","photos/bunker42_stlina.jpg","photos/bunker42_stlina14.jpg","photos/bunker42_stlina18.jpg","photos/bunker42_stlina21.jpg"],
  gorky:["photos/Moscow_Gorky_Park_colonnades_viewpoint_08-2016_img1.jpg","photos/Moscow_Gorky_Park_View_from_Crimea_Bridge.jpg","photos/Moscow_Gorky_Park_main_portal_08-2016_img1.jpg"],
- aptekarsky:["photos/аптекарский_огород1.jpg","photos/аптекарский_огород2.jpg","photos/аптекарский_огород3.jpeg","photos/аптекарский_огород4.jpeg"]
+ aptekarsky:["photos/аптекарский_огород1.jpg","photos/аптекарский_огород2.jpg","photos/аптекарский_огород3.jpg","photos/аптекарский_огород4.jpg"]
 };
 
 var DATA={
