@@ -101,6 +101,15 @@ function openCard(gi){
 }
 function showOnMap(gi){
   var mw=document.getElementById("mapwrap");
+  // добавляем кнопку закрытия если её ещё нет
+  if(!document.getElementById("mapClose")){
+    var btn=document.createElement("button");
+    btn.id="mapClose";
+    btn.innerHTML="✕";
+    btn.style.cssText="position:absolute;top:10px;right:10px;z-index:1000;width:34px;height:34px;border-radius:50%;background:rgba(15,17,23,.9);border:1px solid var(--line);color:#fff;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center";
+    btn.onclick=function(){mw.classList.remove("map-open");};
+    mw.appendChild(btn);
+  }
   mw.classList.add("map-open");
   var p=allPlaces()[gi];
   setTimeout(function(){
