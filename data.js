@@ -26,7 +26,7 @@ var P={
  nevsky:["photos/nevsk-e1592493878183.jpg","photos/nevsky_prospekt.jpg","photos/zaglavnaya-nevskiy-prospekt.jpg","photos/nevsky4.jpg"],
  petropavlovsk:["photos/RUS-2016-Aerial-SPB-Peter_and_Paul_Fortress_02.jpg","photos/petropavlovka1.jpg","photos/petropavlovka2.jpg","photos/RUS-2016-Aerial-SPB-Military_Historical_Museum_of_Artillery.jpg","photos/petropavlovka3.jpg"],
  peterhof:["photos/Grand_Cascade_of_Peterhof_01.jpg","photos/Peterhof_Fountains_01_-_Big_Cascade_02.jpg","photos/Petergof_Alexander_Nevsky_chapel_2009-08_1249234328.jpg"],
- tsarskoe:["photos/Catherine_Palace_in_Tsarskoe_Selo.jpg","photos/tsarskoe1.jpeg","photos/2002-11-15_071b_Puschkin_Bernsteinzimmer.jpg","photos/Pushkin_Catherine_Palace_Interiors_02.jpg","photos/tsarskoe2.jpg","photos/tsarskoe3.jpg","photos/tsarskoe4.jpg","photos/Pushkin_Catherine_Palace_Interiors_05.jpg","photos/FR_Carskie_Siolo,_palac,_in,_2013.08.10,_fot._I._Nowicka_(3)_corr.jpg"],
+ tsarskoe:["photos/Catherine_Palace_in_Tsarskoe_Selo.jpg","photos/tsarskoe1.jpeg","photos/2002-11-15_071b_Puschkin_Bernsteinzimmer.jpg","photos/Pushkin_Catherine_Palace_Interiors_02.jpg","photos/tsarskoe2.jpg","photos/tsarskoe3.jpg","photos/Pushkin_Catherine_Palace_Interiors_05.jpg","photos/FR_Carskie_Siolo,_palac,_in,_2013.08.10,_fot._I._Nowicka_(3)_corr.jpg"],
  strelka:["photos/Spb_06-2017_img01_Spit_of_Vasilievsky_Island.jpg","photos/St_petersburg_4.jpg","photos/День_города_2011.jpeg"],
  bridges:["photos/разводные_мосты.jpg","photos/мосты1.png"],
  food_palkin:["photos/Палкинъ1.jpg","photos/палкин1 .webp","photos/палкин2.webp","photos/палкин3.webp","photos/палкин4.webp"],
