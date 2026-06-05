@@ -99,6 +99,15 @@ function openCard(gi){
   document.querySelectorAll(".card").forEach(function(x){x.classList.remove("open");});
   var c=document.getElementById("card"+gi);if(c){c.classList.add("open");c.scrollIntoView({behavior:"smooth",block:"center"});}
 }
+function showOnMap(gi){
+  var mw=document.getElementById("mapwrap");
+  mw.classList.add("map-open");
+  var p=allPlaces()[gi];
+  setTimeout(function(){
+    if(useLeaflet&&map){map.invalidateSize();map.setView([p.lat,p.lng],14,{animate:true});if(markers[gi])markers[gi].openPopup();}
+  },350);
+  mw.scrollIntoView({behavior:"smooth"});
+}
 
 function renderLegend(){
   var lg=document.getElementById("legend");
