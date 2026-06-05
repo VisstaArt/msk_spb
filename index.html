@@ -89,9 +89,11 @@ header{background:linear-gradient(135deg,#1a1d28,#0f1117);border-bottom:1px soli
 <body>
 <div id="app">
   <header>
+  <div style="width:100%;display:flex;align-items:center">
     <div class="brand"><span class="dot"></span><span id="brandText">Rusya Rehberi</span></div>
-    <div class="spacer"></div>
-    <div class="switch city">
+  </div>
+  <div style="width:100%;display:flex;align-items:center;gap:10px">
+    <div class="switch city" style="flex:1">
       <button id="cMoscow" class="active" onclick="setCity('moscow')">Moskova</button>
       <button id="cSpb" onclick="setCity('spb')">St. Petersburg</button>
     </div>
@@ -99,7 +101,8 @@ header{background:linear-gradient(135deg,#1a1d28,#0f1117);border-bottom:1px soli
       <button id="lTr" class="active" onclick="setLang('tr')">TR</button>
       <button id="lRu" onclick="setLang('ru')">RU</button>
     </div>
-  </header>
+  </div>
+</header>
   <div class="main">
     <div id="mapwrap">
       <div id="map"></div>
