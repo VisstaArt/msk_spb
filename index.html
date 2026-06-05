@@ -83,7 +83,7 @@ header{background:linear-gradient(135deg,#1a1d28,#0f1117);border-bottom:1px soli
 .pop img{width:100%;height:95px;object-fit:cover;border-radius:11px 11px 0 0;display:block;background:#0b0d13}
 .pop .pin-in{padding:8px 11px}.pop .pt{font-weight:700;font-size:13px;margin-bottom:2px}.pop .ps{font-size:11px;color:var(--muted);margin-bottom:7px}
 .pop a{display:inline-block;font-size:11px;font-weight:600;color:#fff;background:var(--accent);padding:5px 10px;border-radius:7px;text-decoration:none}
-@media(max-width:780px){.main{flex-direction:column}#mapwrap{height:38vh;flex:none}.sidebar{width:100%;max-width:100%;border-left:none;border-top:1px solid var(--line);flex:1}.brand{font-size:14px}.switch button{padding:6px 10px;font-size:12px}}
+@media(max-width:780px){.main{flex-direction:column}#mapwrap{height:0;flex:none;overflow:hidden;transition:height .35s ease}#mapwrap.map-open{height:55vh}.sidebar{width:100%;max-width:100%;border-left:none;border-top:1px solid var(--line);flex:1}.brand{font-size:14px}.switch button{padding:6px 10px;font-size:12px}}
 </style>
 </head>
 <body>
