@@ -106,7 +106,7 @@ function showOnMap(gi){
     var btn=document.createElement("button");
     btn.id="mapClose";
     btn.innerHTML="✕";
-    btn.style.cssText="position:absolute;top:10px;right:10px;z-index:1000;width:34px;height:34px;border-radius:50%;background:rgba(15,17,23,.9);border:1px solid var(--line);color:#fff;font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center";
+    btn.style.cssText="position:absolute;top:10px;right:10px;z-index:9999;width:34px;height:34px;border-radius:50%;background:rgba(15,17,23,.9);border:1px solid #2a2f40;color:#fff;font-size:16px;cursor:pointer;line-height:1";
     btn.onclick=function(){mw.classList.remove("map-open");};
     mw.appendChild(btn);
   }
