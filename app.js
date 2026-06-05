@@ -93,7 +93,8 @@ function renderList(){
 function toggleCard(gi){
   var c=document.getElementById("card"+gi),wasOpen=c.classList.contains("open");
   document.querySelectorAll(".card").forEach(function(x){x.classList.remove("open");});
-  if(!wasOpen){c.classList.add("open");var p=allPlaces()[gi];if(useLeaflet&&map){map.setView([p.lat,p.lng],14,{animate:true});if(markers[gi])markers[gi].openPopup();}}
+  var mw=document.getElementById("mapwrap");
+  if(!wasOpen){c.classList.add("open");var p=allPlaces()[gi];if(useLeaflet&&map){map.setView([p.lat,p.lng],14,{animate:true});if(markers[gi])markers[gi].openPopup();}mw.classList.add("map-open");setTimeout(function(){if(useLeaflet&&map)map.invalidateSize();},350);}else{mw.classList.remove("map-open");}
 }
 function openCard(gi){
   document.querySelectorAll(".card").forEach(function(x){x.classList.remove("open");});
