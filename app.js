@@ -2,7 +2,7 @@ var catColor={must:"#e23a3a",park:"#3fae6a",museum:"#b15de0",shop:"#f5b942",mode
 var lang="tr",city="moscow",map=null,markers=[],useLeaflet=false;
 
 function allPlaces(){return (DATA[city].places||[]).concat(DATA[city].food||[]);}
-function gmapsUrl(p){return "https://www.google.com/maps/search/?api=1&query="+p.lat+","+p.lng;}
+function gmapsUrl(p){return "https://yandex.ru/maps/?pt="+p.lng+","+p.lat+"&z=16&l=map";}
 
 // Map
 function initMap(){
