@@ -3,6 +3,7 @@ var T={
  ru:{brand:"Гид по России",sights:"ДОСТОПРИМЕЧАТЕЛЬНОСТИ",food:"ГДЕ ПОЕСТЬ",cityDesc:{moscow:"Столица России. Нажмите на точки на карте или на карточки.",spb:"Культурная столица России. Нажмите на точки на карте или на карточки."},cat:{must:"Обязательно",park:"Парк",museum:"Музей",shop:"ТЦ",modern:"Современное",food:"Ресторан"},time:"Время",price:"На человека",btnMap:"Google Maps",btnPhoto:"Все фото",why:"Почему?",schNote:"Карта не загрузилась. Нажмите на карточки для информации."}
 };
 
+
 var P={
  kremlin:["photos/kremlin_1.jpg","photos/kremlin_3.jpg","photos/kremlin_4.jpg","photos/kremlin_5.jpg","photos/kremlin_6.jpg","photos/kremlin_2.jpg"],
  redsquare:["photos/redsquare_1.jpg","photos/redsquare_2.jpg","photos/redsquare_3.jpg"],
